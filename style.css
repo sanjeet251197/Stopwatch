@@ -1,0 +1,39 @@
+body{
+    background-color: #2c3e50;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#display {
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em;
+
+    margin-bottom: 1em;
+  }
+  #buttons {
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    font-size: 35px;
+    margin: 15px;
+    padding: 7px 25px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+  }
+
+  #startButton{
+    background-color: #1abc9c;
+  }
+  #stopButton{
+    background-color: #e74c3c;
+  }
+  #resetButton{
+    background-color: #3498db;
+  }
